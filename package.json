@@ -1,0 +1,48 @@
+{
+    "name": "presentation-mode", 
+    "license": "GPL",
+    "author": "Sukhbir Singh", 
+    "version": "0.2",
+    "fullName": "Presentation Mode", 
+    "id": "jid1-ozIJ1zbCruE6xg", 
+    "description": "Presentation Mode for Firefox helps protect your privacy when using Firefox during a presentation.",
+    "icon": "icon.png",
+    "icon64": "icon.png",
+    "preferences": 
+    [
+        {
+            "name": "downloadpreference",
+            "title": "Clear Downloads",
+            "description": "When entering Presentation Mode, clear the downloads list?",
+            "type": "radio",
+            "value": "N",
+            "options": [
+                {
+                    "value": "N",
+                    "label": "No"
+                },
+                {
+                    "value": "Y",
+                    "label": "Yes"
+                }
+            ]
+        },
+        {
+            "name": "tabclosepreference",
+            "title": "Close Tabs",
+            "description": "When exiting Presentation Mode, close the tabs you opened during the presentation?",
+            "type": "radio",
+            "value": "Y",
+            "options": [
+                {
+                    "value": "N",
+                    "label": "No"
+                },
+                {
+                    "value": "Y",
+                    "label": "Yes"
+                }
+            ]
+        }
+    ]
+}
